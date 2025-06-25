@@ -8,10 +8,10 @@ CREATE TABLE Cliente (
   direccion VARCHAR(255),
   telefono VARCHAR(255),
   monto INT,
-  distrito INT,
+  distrito INT
 );
 
 CREATE TABLE Distrito (
   codigo INT PRIMARY KEY,
-  nombre VARCHAR(255),
+  nombre VARCHAR(255)
 );
