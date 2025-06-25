@@ -3,15 +3,15 @@ CREATE SCHEMA examen;
 use examen;
 
 CREATE TABLE Cliente (
-  dni INT64,
-  razon_social STRING(1024),
-  direccion STRING(1024),
-  telefono STRING(1024),
-  monto FLOAT64,
-  distrito INT64,
-) PRIMARY KEY(dni);
+  dni INT PRIMARY KEY,
+  razon_social VARCHAR(255),
+  direccion VARCHAR(255),
+  telefono VARCHAR(255),
+  monto INT,
+  distrito INT,
+);
 
 CREATE TABLE Distrito (
-  codigo INT64,
-  nombre STRING(1024),
-) PRIMARY KEY(codigo);
+  codigo INT PRIMARY KEY,
+  nombre VARCHAR(255),
+);
