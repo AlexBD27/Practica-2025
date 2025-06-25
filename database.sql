@@ -1,3 +1,7 @@
+CREATE SCHEMA examen;
+
+use examen;
+
 CREATE TABLE Cliente (
   dni INT64,
   razon_social STRING(1024),
