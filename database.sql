@@ -2,7 +2,7 @@ CREATE DATABASE examen;
 
 use examen;
 
-CREATE TABLE Cliente (
+CREATE TABLE cliente (
   dni INT PRIMARY KEY,
   razon_social VARCHAR(255),
   direccion VARCHAR(255),
@@ -11,7 +11,7 @@ CREATE TABLE Cliente (
   distrito INT
 );
 
-CREATE TABLE Distrito (
+CREATE TABLE distrito (
   codigo INT PRIMARY KEY,
   nombre VARCHAR(255)
 );
