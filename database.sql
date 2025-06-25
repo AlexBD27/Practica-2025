@@ -1,4 +1,4 @@
-CREATE SCHEMA examen;
+CREATE DATABASE examen;
 
 use examen;
 
